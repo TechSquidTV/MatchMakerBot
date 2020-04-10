@@ -1,0 +1,30 @@
+{
+  "name": "MatchMaker-Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "serve": "node dist/index.js",
+    "dev": "npm run build && npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "@typeit/discord": "^2.0.9",
+    "@types/mongoose": "^5.7.8",
+    "@types/node": "^13.11.0",
+    "axios-logger": "^2.3.1",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  }
+}
